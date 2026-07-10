@@ -18,6 +18,46 @@
   "next_step": "Run the matrix on a compact public benchmark with fixed compute and seed variance.",
   "professor": "Mehrdad Mahdavi",
   "project_family": "optimization",
+  "proposed_method": {
+    "algorithm_id": "P069-Mahdavi-MlOptimization",
+    "algorithm_name": "MahdaviEvidenceMlOptimizationRepairLoop",
+    "core_mechanism": "prioritizes efficient training configurations under metric, runtime, and calibration tradeoffs",
+    "decision_rule": "Rank seed cases by optimization-specific priority score with Mahdavi-aligned focus term 'ML optimization'.",
+    "mean_priority_score": 0.3241,
+    "project_family": "optimization",
+    "top_cases": [
+      {
+        "action": "keep as diagnostic baseline",
+        "case_id": "O6",
+        "priority_score": 0.3753,
+        "signals": {
+          "calibration_error": 0.075,
+          "config": "adamw-baseline",
+          "efficiency": 0.0258
+        }
+      },
+      {
+        "action": "keep as diagnostic baseline",
+        "case_id": "O9",
+        "priority_score": 0.3744,
+        "signals": {
+          "calibration_error": 0.075,
+          "config": "adamw-baseline",
+          "efficiency": 0.0264
+        }
+      },
+      {
+        "action": "keep as diagnostic baseline",
+        "case_id": "O3",
+        "priority_score": 0.3739,
+        "signals": {
+          "calibration_error": 0.075,
+          "config": "adamw-baseline",
+          "efficiency": 0.0255
+        }
+      }
+    ]
+  },
   "research_area": "ML optimization, federated learning, learning theory",
   "university": "Penn State",
   "value_add": "training-dynamics and efficiency audit"
