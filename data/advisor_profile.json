@@ -1,0 +1,13 @@
+{
+  "professor": "Mehrdad Mahdavi",
+  "university": "Penn State",
+  "program": "CSE PhD",
+  "research_area": "ML optimization, federated learning, learning theory",
+  "representative_paper": "Online Convex Optimization with Long Term Constraints; 2012; JMLR",
+  "paper_link": "https://scholar.google.com/scholar?q=Online+Convex+Optimization+with+Long+Term+Constraints",
+  "project_family": "optimization",
+  "focus": "ML optimization",
+  "value_add_artifact": "training-dynamics and efficiency audit",
+  "next_step": "Run the matrix on a compact public benchmark with fixed compute and seed variance.",
+  "generated_for": "professor outreach value-add starter"
+}

@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "artifact": "training-dynamics efficiency audit",
+    "best_efficiency_config": "efficient-variant",
+    "configs": {
+      "adamw-baseline": {
+        "efficiency": 0.0259,
+        "mean_final_metric": 0.7887,
+        "mean_runtime_seconds": 30.44
+      },
+      "efficient-variant": {
+        "efficiency": 0.0341,
+        "mean_final_metric": 0.769,
+        "mean_runtime_seconds": 22.5667
+      }
+    }
+  },
+  "next_step": "Run the matrix on a compact public benchmark with fixed compute and seed variance.",
+  "professor": "Mehrdad Mahdavi",
+  "project_family": "optimization",
+  "research_area": "ML optimization, federated learning, learning theory",
+  "university": "Penn State",
+  "value_add": "training-dynamics and efficiency audit"
+}
